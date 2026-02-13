@@ -1,0 +1,19 @@
+# Backend
+fastapi>=0.110.0
+uvicorn[standard]>=0.29.0
+redis>=5.0.0
+orjson>=3.9.0
+pydantic>=2.0.0
+
+# Vision / Gesture Client
+opencv-python>=4.9.0
+mediapipe==0.10.21             # 0.10.30 has Windows 'free' bug
+websockets>=12.0
+
+# Speech Client (Silero VAD + Smart Turn + NVIDIA ASR API)
+sounddevice>=0.4.6
+numpy>=1.24.0
+httpx>=0.27.0
+onnxruntime>=1.17.0          # Silero VAD + Smart Turn v3 ONNX inference
+transformers>=4.40.0         # WhisperFeatureExtractor for Smart Turn
+nvidia-riva-client>=2.16.0   # gRPC client for NVIDIA Parakeet ASR

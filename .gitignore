@@ -1,0 +1,19 @@
+__pycache__/
+*.pyc
+*.pyo
+.command_history
+.env
+*.egg-info/
+dist/
+build/
+
+# Kokoro TTS model files (large, download separately)
+WindowsControl/models/
+
+# Logs
+*.log
+logs/
+
+# IDE
+.vscode/
+.idea/

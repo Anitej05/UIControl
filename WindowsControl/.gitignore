@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+*.pyo
+.command_history
+.env
+*.egg-info/
+dist/
+build/
+models/
